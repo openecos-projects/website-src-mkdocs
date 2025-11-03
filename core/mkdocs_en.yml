@@ -1,0 +1,27 @@
+INHERIT: tpl/cfg/mkdocs_base.yml
+
+docs_dir: src/en
+site_dir: site/en
+
+site_name: ECOS Team
+
+theme:
+  palette:
+  - scheme: ecos-light
+    primary: white
+    accent:
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - scheme: ecos-dark
+    primary: black
+    accent:
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  language: en
+  logo: /res/img/web/ecos/logo.svg
+  favicon: /res/img/web/ecos/favicon.ico
+
+nav:
+  - Home: index.md

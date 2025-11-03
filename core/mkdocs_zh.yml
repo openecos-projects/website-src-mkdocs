@@ -1,0 +1,27 @@
+INHERIT: tpl/cfg/mkdocs_base.yml
+
+docs_dir: src/zh
+site_dir: site
+
+site_name: ECOS团队
+
+theme:
+  palette:
+  - scheme: ecos-light
+    primary: white
+    accent:
+    toggle:
+      icon: material/brightness-7
+      name: 切换到深色模式
+  - scheme: ecos-dark
+    primary: black
+    accent:
+    toggle:
+      icon: material/brightness-4
+      name: 切换到浅色模式
+  language: zh
+  logo: /res/img/web/ecos/logo.svg
+  favicon: /res/img/web/ecos/favicon.ico
+
+nav:
+  - 网站首页: index.md

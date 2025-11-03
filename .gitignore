@@ -11,3 +11,4 @@ res
 
 # Node
 node_modules
+package*.json
