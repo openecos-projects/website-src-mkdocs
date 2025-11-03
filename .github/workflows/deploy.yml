@@ -24,7 +24,7 @@ jobs:
     - name: Setup Resources and Template
       run: |
         MKDOCS_ENV=deploy make setup
-    - name: Install and build
+    - name: Install and Build
       run: |
         make build
     - name: Deploy to GitHub Pages
