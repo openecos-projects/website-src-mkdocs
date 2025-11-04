@@ -6,8 +6,8 @@ hide:
 
 <div class="text-4xl font-bold text-center mb-4">开源芯片敏捷设计生态团队</div>
 <div class="text-xl font-medium text-center">[构建]一个开源开放、合作共享的芯片生态系统</div>
-<div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mt-8">
-    <div class="flex flex-row gap-4">
+<div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mt-8 mb-13!">
+    <div class="flex flex-col md:flex-row sm:flex-col gap-4">
         <div class="basis-2/3">
             <div class="flex flex-col gap-4">
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
@@ -25,9 +25,9 @@ hide:
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
                     <div class="px-4 py-5 sm:p-6">
                         <div class="text-base font-bold">项目列表</div>
-                        <div class="flex flex-row">
-                            <div class="basis-1/2 border-r border-gray-300 pr-4">
-                                <ul>
+                        <div class="flex flex-row max-[450px]:flex-col">
+                            <div class="basis-1/2 border-r border-gray-300 pr-4 max-[450px]:border-none">
+                                <ul class="max-[450px]:mb-0!">
                                     <li><span class="font-bold">人才培养</span>
                                         <ul>
                                             <li><a href="https://ysyx.oscc.cc" target="_blank">一生一芯</a>：大规模开放式公益性芯片及系统人才培养计划</li>
@@ -42,7 +42,7 @@ hide:
                                 </ul>
                             </div>
                             <div class="basis-1/2 pr-4">
-                                <ul>
+                                <ul class="max-[450px]:mt-0!">
                                     <li><span class="font-bold">PDK数据</span>
                                         <ul>
                                             <li><a href="https://icsprout55-pdk.rtfd.io" target="_blank">浙江创芯55nm PDK</a>：浙江创芯打造的基于55nm CMOS工艺的开源PDK</li>
