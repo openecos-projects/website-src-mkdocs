@@ -23,5 +23,33 @@ theme:
   logo: /res/img/web/ecos/logo.svg
   favicon: /res/img/web/ecos/favicon.ico
 
+plugins:
+  - tags
+  - meta
+  - search
+  - glightbox
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  - blog:
+      blog_dir: news
+      blog_toc: true
+      post_url_format: "{file}"
+  - include-markdown
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4
+
+extra_css:
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/tailwind.min.css
+
 nav:
   - 网站首页: index.md
+  - 新闻动态:
+    - news/index.md

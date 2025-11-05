@@ -89,16 +89,7 @@ hide:
                             </svg>
                         </span>
                     </div>
-                    <div class="my-4">
-                    <div class="font-bold">2025-11-08</div>
-                        <div>ECOS Studio, a cloud platform for agile chip design, has been officially released. It will initially support "One Student One Chip" Initiative educational tapeout and small-scale research tapeout.</div>
-                        <div></div>
-                    </div>
-                    <div class="my-4">
-                        <div class="font-bold">2025-10-20</div>
-                        <div>The ICsprout55-pdk repository has been officially released, marking a milestone for the open-source chip ecosystem!</div>
-                        <div></div>
-                    </div>
+                    {% include-markdown "news.html" %}
                 </div>
             </div>
             <div class="flex flex-col gap-4">

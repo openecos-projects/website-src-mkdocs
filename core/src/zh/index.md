@@ -89,16 +89,7 @@ hide:
                             </svg>
                         </span>
                     </div>
-                    <div class="my-4">
-                    <div class="font-bold">2025-11-08</div>
-                        <div>ECOS Studio芯片敏捷设计云平台正式对外发布，将首先支持“一生一芯”教育流片和小规模科研流片。</div>
-                        <div></div>
-                    </div>
-                    <div class="my-4">
-                        <div class="font-bold">2025-10-20</div>
-                        <div>浙江创芯55nm开源PDK仓库正式对外发布，开源芯片生态迎来里程碑时刻！</div>
-                        <div></div>
-                    </div>
+                    {% include-markdown "news.html" %}
                 </div>
             </div>
             <div class="flex flex-col gap-4">
