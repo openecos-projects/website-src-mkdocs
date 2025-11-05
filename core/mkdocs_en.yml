@@ -26,7 +26,6 @@ theme:
 plugins:
   - tags
   - meta
-  - search
   - glightbox
   - minify:
       minify_html: true
