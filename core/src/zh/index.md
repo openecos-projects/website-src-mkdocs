@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-<div class="text-4xl font-bold text-center mb-4">开源芯片敏捷设计生态团队</div>
+<div class="text-4xl font-bold text-center mb-4">开源芯片生态团队</div>
 <div class="text-xl font-medium text-center">[构建]一个开源开放、合作共享的芯片生态系统</div>
 <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mt-8 mb-13!">
     <div class="flex flex-col md:flex-row sm:flex-col gap-4">
@@ -13,51 +13,19 @@ hide:
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
                     <div class="px-4 py-5 sm:p-6 markdown">
                         <div class="text-base font-bold">团队介绍</div>
-                        <ul>
-                            <li><span class="font-bold">创建日期</span>：2021年7月</li>
-                            <li><span class="font-bold">创始单位</span>：<a href="https://acs.ict.ac.cn" target="_blank">中国科学院计算技术研究所/先进计算机系统研究中心/前沿系统实验室</a>、<a href="https://www.bosc.ac.cn" target="_blank">北京开源芯片研究院</a>等</li>
-                            <li><span class="font-bold">合作伙伴</span>：<a href="https://www.pcl.ac.cn" target="_blank">鹏城实验室</a>、<a href="https://suat-sz.edu.cn" target="_blank">深圳理工大学</a>、<a href="https://www.hkust-gz.edu.cn/zh/" target="_blank">香港科技大学（广州）</a>等</li>
-                            <li><span class="font-bold">标语口号</span>：[构建]一个开源开放、合作共享的芯片生态系统</li>
-                            <li><span class="font-bold">目标计划</span>：ECOS团队致力于构建开源的芯片设计解决方案及其技术生态体系，用<span class="font-bold">“开源”</span>理念革新芯片设计方法，实现<span class="font-bold">“用开源降低芯片设计门槛，赋能千行万业”</span>的终极愿景</li>
-                        </ul>
+                        <div>ECOS团队的名字，取自EDA、Chip、OneStudentOneChip、System的首字母，同时为Ecosystem的前四个字母，表意为“生态”。ECOS团队由原“一生一芯”团队和原“开源EDA”团队合并而成，成员主要来自中国科学院计算技术研究所/先进计算机系统研究中心/前沿系统实验室、北京开源芯片研究院等。团队由计算所包云岗老师指导，日常由解壁伟和余子濠负责，现有10余名工程师和数名博硕士生。团队每年在计算所、国科大计算机学院、上海科技大学等单位招收博硕士生。同时，团队与鹏城实验室、深圳大学、山东大学、深圳理工大学、香港科技大学（广州）等学校保持紧密合作。</div>
                     </div>
                 </div>
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
                     <div class="px-4 py-5 sm:p-6">
                         <div class="text-base font-bold">项目列表</div>
-                        <div class="flex flex-row max-[450px]:flex-col">
-                            <div class="basis-1/2 border-r border-gray-300 pr-4 max-[450px]:border-none">
-                                <ul class="max-[450px]:mb-0!">
-                                    <li><span class="font-bold">人才培养</span>
-                                        <ul>
-                                            <li><a href="https://ysyx.oscc.cc" target="_blank">一生一芯</a>：大规模开放式公益性芯片及系统人才培养计划</li>
-                                        </ul>
-                                    </li>
-                                    <li><span class="font-bold">RTL设计</span></li>
-                                    <li><span class="font-bold">EDA工具</span>
-                                        <ul>
-                                            <li><a href="https://ieda.oscc.cc" target="_blank">iEDA</a>：开源智能EDA工具和基础设施</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="basis-1/2 pr-4">
-                                <ul class="max-[450px]:mt-0!">
-                                    <li><span class="font-bold">PDK数据</span>
-                                        <ul>
-                                            <li><a href="https://icsprout55-pdk.rtfd.io" target="_blank">浙江创芯55nm PDK</a>：浙江创芯打造的基于55nm CMOS工艺的开源PDK</li>
-                                        </ul>
-                                    </li>
-                                    <li><span class="font-bold">嵌入式</span>
-                                        <ul>
-                                            <li><a href="https://ecos-embedded.rtfd.io" target="_blank">ECOS Embedded</a>：基于ECOS开源芯片的嵌入式板卡社区</li>
-                                        </ul>
-                                    </li>
-                                    <li><span class="font-bold">平台服务</span>
-                                        <ul>
-                                            <li><a href="https://studio.oscc.cc" target="_blank">ECOS Studio</a>：基于云端的芯片敏捷和实时协作EDA平台</li>
-                                        </ul>
-                                    </li>
+                        <div class="flex flex-row">
+                            <div>
+                                <ul>
+                                    <li><a href="https://ysyx.oscc.cc" target="_blank">一生一芯</a>：大规模开放式公益性芯片及系统人才培养计划</li>
+                                    <li><a href="https://ieda.oscc.cc" target="_blank">iEDA</a>：开源智能EDA工具和基础设施</li>
+                                    <li><a href="https://icsprout55-pdk.rtfd.io" target="_blank">浙江创芯55nm PDK</a>：浙江创芯打造的基于55nm CMOS工艺的开源PDK</li>
+                                    <li><a href="https://studio.oscc.cc" target="_blank">ECOS Studio</a>：基于云端的芯片敏捷和实时协作EDA平台</li>
                                 </ul>
                             </div>
                         </div>
