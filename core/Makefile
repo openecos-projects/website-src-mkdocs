@@ -12,6 +12,8 @@ REPO_TPL_URL := $(REPO_PREFIX)openecos-projects/website-tpl-mkdocs.git
 
 LINK_TARGET := src/zh src/en
 
+.PHONY: setup
+
 setup:
 	@echo "Checking and setting up directories..."
 	@if [ ! -d "$(REPO_RES_DIR)" ]; then \
@@ -39,23 +41,3 @@ setup:
 		fi; \
 	done
 	@echo "Setup completed."
-
-.PHONY: setup
-
-NODE_MODULES := ./node_modules
-
-FILE_TAILWIND     := tailwind
-FILE_TAILWIND_INT := tpl/theme/$(FILE_TAILWIND).css
-FILE_TAILWIND_MIN := tpl/theme/assets/stylesheets/$(FILE_TAILWIND).min.css
-
-$(NODE_MODULES):
-	npm install tailwindcss @tailwindcss/cli
-
-gen: $(NODE_MODULES) $(FILE_TAILWIND_INT)
-	npx @tailwindcss/cli -i $(FILE_TAILWIND_INT) -o $(FILE_TAILWIND_MIN) -m
-
-clean-node:
-	rm -rf $(NODE_MODULES)
-	rm package.json package-lock.json
-
-.PHONY: gen clean-node
