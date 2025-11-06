@@ -1,5 +1,4 @@
 {
-  "alias": "openecos.com",
   "buildCommand": "cd core && MKDOCS_ENV=deploy make setup && make build-web && make build-web MKDOCS_LANG=en",
   "outputDirectory": "core/site"
 }
