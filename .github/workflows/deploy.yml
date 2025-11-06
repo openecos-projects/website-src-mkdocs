@@ -34,6 +34,6 @@ jobs:
         publish_dir: ./core/site
         external_repository: openecos-projects/openecos-projects.github.io
         publish_branch: main
-        cname: openecos.com
+        # cname: openecos.com
         user_name: "github-actions[bot]"
         user_email: "github-actions[bot]@users.noreply.github.com"
