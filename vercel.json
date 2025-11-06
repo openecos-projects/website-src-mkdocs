@@ -1,4 +1,4 @@
 {
-  "buildCommand": "cd core && MKDOCS_ENV=deploy make gen && make gen-web && make build && make build MKDOCS_LANG=en",
+  "buildCommand": "cd core && MKDOCS_ENV=deploy make setup && make gen && make build && make build MKDOCS_LANG=en",
   "outputDirectory": "core/site"
 }
