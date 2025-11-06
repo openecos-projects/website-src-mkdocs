@@ -2,6 +2,7 @@
 hide:
   - navigation
   - toc
+  - footer
 ---
 
 <div class="text-4xl font-bold text-center mb-4">Open Source Chip Ecosystem Team</div>
