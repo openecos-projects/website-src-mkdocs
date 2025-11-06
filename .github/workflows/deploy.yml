@@ -26,7 +26,7 @@ jobs:
         MKDOCS_ENV=deploy make setup
     - name: Install Environment, Generate Dynamic Files and Build
       run: |
-        make gen-web && make build && make build MKDOCS_LANG=en
+        make gen && make build && make build MKDOCS_LANG=en
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
