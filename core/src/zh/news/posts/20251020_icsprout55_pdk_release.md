@@ -2,7 +2,7 @@
 authors:
   - myyerrol
 categories:
-  - ICsprout
+  - 浙江创芯
   - PDK
 date: 2025-10-20
 desc: 浙江创芯55nm开源PDK正式发布！

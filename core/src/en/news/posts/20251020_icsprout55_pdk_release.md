@@ -5,10 +5,10 @@ categories:
   - ICsprout
   - PDK
 date: 2025-10-20
-desc: ICsprout 55nm Open Source PDK Released!
+desc: ICsprout 55nm Open Source PDK Officially Released!
 ---
 
-# ICsprout 55nm Open Source PDK Released!
+# ICsprout 55nm Open Source PDK Officially Released!
 The ECOS Team is proud to announce **the official release of the world's first open-source PDK based on 55nm process technology!** We are deeply grateful to ICsprout for contributing the world's most advanced, tapeout-ready open-source PDK at the time of release, **marking a significant milestone in the history of open-source chips (glory to ICsprout).** The open-source nature of ICsprout 55nm Open Source PDK (hereinafter referred to as this PDK) completely changes the high-barrier, high-cost predicament of traditional chip design. It provides universities, research institutions, and the open-source community with a complete pathway from chip design to tapeout manufacturing through open sharing, enabling researchers and developers to transform their imaginative design ideas into actual physical silicon wafers. Furthermore, thanks to the advanced nature of the 55nm process node in the open-source chip field, the complexity and flexibility of future open-source chip design will significantly increase, providing strong support for promoting the construction of the open-source chip ecosystem and the cultivation of chip talent.<!-- more -->The following are important notes regarding the release of this PDK:
 
 - The PDK repository URL is: [https://github.com/openecos-projects/icsprout55-pdk](https://github.com/openecos-projects/icsprout55-pdk), and the PDK documentation URL is: [https://icsprout55-pdk.rtfd.io](https://icsprout55-pdk.rtfd.io). This PDK currently only includes IO and STD Cells (excluding GDS files), and LEF files for placement and routing. Other content not yet open-source will be released gradually in subsequent version updates.
