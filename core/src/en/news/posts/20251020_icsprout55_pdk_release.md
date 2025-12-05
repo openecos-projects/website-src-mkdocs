@@ -3,7 +3,7 @@ authors:
   - myyerrol
 categories:
   - ICsprout
-  - PDK
+  - Open Source PDK
 date: 2025-10-20
 desc: ICsprout 55nm Open Source PDK Officially Released!
 ---
