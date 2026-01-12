@@ -65,22 +65,22 @@ StarrySky C1 Board has passed the power-on test
 StarrySky C1 Board runs the donut program
 ///
 
-鉴于很多同学前来咨询，ECOS团队计划开启对本颗芯片的领用、试用和试售。
+Given the numerous inquiries from students, the ECOS Team plans to initiate the distribution, trial, and pilot sale of this chip.
 
-**1、“一生一芯”正式学员，可以按需免费领用（返回开箱及点亮视频或文章）。**其他爱好者，可以付费购买，价格预计在100元左右（收益会用于“一生一芯”和开源芯片技术迭代）。【有兴趣的同学，可以加底部微信群】。
+**Formal "One Student One Chip" trainees can apply to receive the chip for free based on their needs (in return for providing an unboxing and power-on video or article).** Other enthusiasts can purchase it at an estimated price of around 100 RMB (proceeds will be used to support the "One Student One Chip" program and the iteration of open-source chip technology). [Interested students can join the WeChat group at the bottom].
 
-2、开发板套件中，包括一块集成有当前芯片的PCB板卡、用于供电和烧写程序的USB线缆、一些常用的电子开发套件（杜邦线、面包板、LED、开关、温湿度传感器、LED屏幕等）、一套软件工具包（烧写软件、编译工具链、示例程序等）、ECOS团队周边（如贴纸）等。
+The development board kit includes a PCB board integrated with the current chip, a USB cable for power supply and programming, common electronic development accessories (such as Dupont wires, breadboards, LEDs, switches, temperature and humidity sensors, LED screens, etc.), a software tool package (programming software, compilation toolchain, sample programs, etc.), and ECOS Team merchandise (e.g., stickers).
 
-**3、此次芯片回片数量有限，ECOS团队计划先发布50套板卡**，希望所有对开源芯片软硬件生态感兴趣、长期活跃于嵌入式社区的专业人士、或者热衷于用开源芯片设计嵌入式应用的个人爱好者参与到我们ECOS团队本次芯片的试售需求调查以及后续芯片的上手体验中来。此外，我们非常鼓励大家录制板卡的开箱视频、编写详细的上手测试以及嵌入式应用开发文章、或者将使用过程中暴露出的问题以及改进建议反馈给我们。
+**Due to the limited quantity of returned chips, the ECOS Team plans to initially release 50 sets of boards.** We hope that all professionals interested in the open-source chip software/hardware ecosystem, those long-term active members of the embedded community, or individual enthusiasts passionate about designing embedded applications with open-source chips will participate in our pilot sales demand survey and the subsequent hands-on experience with this chip. Furthermore, we highly encourage everyone to record unboxing videos of the board, write detailed hands-on testing and embedded application development articles, or provide feedback on issues encountered during use and suggestions for improvement.
 
-## 03 团队目标，以及即将到来的流片模式
-ECOS团队预计在今年12月底使用开源IP+开源SoC+开源EDA+创芯（ICSprout）55nm开源PDK完成一颗开源SoC芯片的流片。区别于上一颗芯片，该颗芯片将使用创芯55nm开源PDK，可以被称作是完全开源的芯片，敬请关注。
+## 03 Team Goals and the Upcoming Tapeout Model
+The ECOS Team plans to complete the tapeout of an open-source SoC chip by the end of December this year using open-source IP, open-source SoC, open-source EDA, and the ICsprout 55nm open-source PDK. Different from the previous chip, this one will utilize the ICsprout 55nm open-source PDK and can be considered a fully open-source chip. Please stay tuned for updates.
 
-这颗芯片的设计流程包含：开源IP和SoC、开源的仿真验证工具（verilator、iverilog）、开源的RTL2GDS工具链（yosys+iEDA+klayout）和开源的PDK（创芯55nm）。如果芯片最终能够成功点亮，开源芯片技术将迈进关键一步。
+The design flow for this chip includes: open-source IP and SoC, open-source simulation and verification tools (Verilator, Icarus Verilog), an open-source RTL-to-GDS toolchain (Yosys, iEDA, KLayout), and an open-source PDK (ICsprout 55nm). If the chip ultimately powers on successfully, open-source chip technology will take a crucial step forward.
 
-在大多数人的认知里，研发芯片的成本很高，这其中有工具费用（EDA工具和IP）、人员费用、制造费用（流片和封装）等，动辄要几百上千万。但是，随着开源芯片设计解决方案（开源EDA+开源IP+开源PDK）的逐步成熟，设计一颗芯片并流片验证的门槛和成本都在大幅降低。
+In most people's perception, the cost of developing a chip is very high, involving tool expenses (EDA tools and IP), personnel costs, manufacturing costs (tapeout and packaging), etc., often amounting to millions. However, with the gradual maturation of the open-source chip design solution (open-source EDA + open-source IP + open-source PDK), the barrier and cost for designing a chip and performing a tapeout verification are significantly decreasing.
 
-事实上，如果不追求极致PPA，借助开源解决方案，一颗中小规模（百万门级）的芯片（如Rocket-chip）的成本（设计+工具+制造）可以降低到5万到10万之间。亦即，如果有同学想要设计一套搭载自己芯片的开发板（单价100元/张），只需有1000个人愿意为此买单，就完全可以摊回成本。更小一点的芯片（十万门级），成本甚至可以降低到1万，只需要有100个人愿意买单就可以了。比如，你可以与其他同学组队设计一个处理器SoC，用作明年操作系统实验课的教材设备。你也可以在里边加入自己的定制模块，用来加速你的算法，用在自己的机器人上，这并不会使芯片成本增加太多。
+In fact, if not pursuing extreme PPA (Performance, Power, Area), with the help of the open-source solution, the total cost (design + tools + manufacturing) for a small-to-medium scale (million-gate level) chip (such as Rocket-chip) can be reduced to between 50,000 and 100,000 RMB. This means that if a student wants to design a development board equipped with their own chip (unit price 100 RMB/board), it would only take 1,000 people willing to purchase it to fully recoup the costs. For an even smaller chip (hundred-thousand-gate level), the cost could even drop to 10,000 RMB, requiring only 100 willing buyers. For example, you could team up with other students to design a processor SoC to be used as teaching equipment for next year's operating systems lab course. You could also integrate your own custom module to accelerate your algorithm for use in your robot, which wouldn't significantly increase the chip's cost.
 
 ## 04 关于免费流片的征集
 今年12月份的创芯55nm班车上，会搭载“一生一芯”学员芯片，以及开源EDA和开源IP的测试流片。为了支持社区喜欢做开源硬件的同学，同时测试当前开源芯片解决方案的质量，我们决定划出一块面积，用于支持社区免费流片。大家可以自己开发、也可以基于现有开源项目（如Chipyard、PULP等）开发自己的SoC，投递到项目组，申请免费流片。
@@ -103,5 +103,5 @@ ECOS团队预计在今年12月底使用开源IP+开源SoC+开源EDA+创芯（ICS
 
 ![](../../res/img/web/news/20250901/06.webp)
 /// caption
-Weixin Group: Open Source Chip (Chip Trial and TapeOut Application)
+WeChat Group: Open Source Chip (Chip Trial and TapeOut Application)
 ///
