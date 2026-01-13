@@ -1,6 +1,7 @@
 ---
 authors:
   - myyerrol
+  - puckbee
 categories:
   - Open Source EDA
   - Open Source IP
@@ -26,18 +27,18 @@ After six years of persistent effort, we have finally reached this milestone and
 
 **3. We will offer a batch of free tapeouts (December batch) on the 55nm process.** Interested teachers and students are welcome to apply with their own code (self-developed or based on open-source projects). Students interested in backend design can complete it themselves using our open-source EDA tools, and we will provide technical support. For details, please see the end of this article.
 
-## 02 规格功能
-这颗芯片内部集成有一个PicoRV32开源处理器核，该处理器核支持RV32IMC指令集组合，并带有一个内置的中断控制器，使其能够响应外部中断请求。芯片SoC框架选用的是retroSoC MINI（https://github.com/retroSoC），其最初设定的目标是能支持一款轻量级的MCU芯片（5万个Instances左右），内部集成有总线桥、统一的时钟与电源域管理模块、时钟复位模块（支持动态调整频率）、丰富的存储器IP（如SPI FLASH、QPI PSRAM等）和接口IP（如UART、QSPI、I2C、GPIO等），可以完成UART串口读写、GPIO输入检测与输出控制、PWM舵机控制、基于I2C和QSPI接口的传感器数据采集、定时器中断、随机数生成等功能，对标意法半导体STM32F103，支持的嵌入式解决方案主要有智能手环、机械臂、四轴飞行器等。
+## 02 Specifications and Features
+This chip integrates an open-source PicoRV32 processor core, which supports the RV32IMC instruction set combination and includes a built-in interrupt controller, enabling it to respond to external interrupt requests. The chip's SoC framework is based on retroSoC MINI (https://github.com/retroSoC), initially designed to support a lightweight MCU chip (approximately 50,000 instances). It integrates a bus bridge, unified clock and power domain management modules, a clock and reset module (supporting dynamic frequency adjustment), rich memory IP (such as SPI FLASH, QPI PSRAM, etc.), and interface IP (such as UART, QSPI, I2C, GPIO, etc.). It can perform functions including UART serial read/write, GPIO input detection and output control, PWM servo control, sensor data acquisition via I2C and QSPI interfaces, timer interrupts, and random number generation. It is comparable to STMicroelectronics' STM32F103 and supports embedded solutions such as smart bracelets, robotic arms, and quadcopters.
 
-芯片具体规格参数如下：
+The detailed chip specifications are as follows:
 
-- RV32IMC处理器（主频为24-192MHz）
-- AMBA AXI和APB总线
-- 128KB片上SRAM，并支持外接最高8MB的PSRAM（运行频率144MHz）
-- 1 x RCU（时钟复位模块）、18 x GPIO（通用输入输出）
-- 1 x RNG（随机数生成器）、2 x TIM（定时器）、4 x PWM（脉冲宽度调制）、1x I2C（内部集成电路总线）、1 x SPFS（SPI FLASH控制器）、1 x UART（通用异步接收发送器）、1 x ARCH（架构信息）、2 x QSPI（四线串行通信接口）
-- 国产110nm工艺
-- 采用QFN-128封装
+- RV32IMC processor (operating frequency: 24-192 MHz)
+- AMBA AXI and APB buses
+- 128 KB on-chip SRAM, with support for external PSRAM up to 8 MB (operating frequency: 144 MHz)
+- 1 x RCU (Reset and Clock Unit), 18 x GPIO (General-Purpose Input/Output)
+- 1 x RNG (Random Number Generator), 2 x TIM (Timer), 4 x PWM (Pulse Width Modulation), 1 x I2C (Inter-Integrated Circuit), 1 x SPFS (SPI Flash Controller), 1 x UART (Universal Asynchronous Receiver/Transmitter), 1 x ARCH (Architecture Information), 2 x QSPI (Quad Serial Peripheral Interface)
+- Domestic 110nm process
+- Package: QFN-128
 
 ![](../../res/img/web/news/20250901/01.png)
 /// caption
