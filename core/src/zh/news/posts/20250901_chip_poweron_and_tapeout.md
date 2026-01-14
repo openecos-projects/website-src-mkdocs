@@ -1,6 +1,7 @@
 ---
 authors:
   - myyerrol
+  - puckbee
 categories:
   - 开源EDA
   - 开源IP
