@@ -73,7 +73,7 @@ The development board kit includes a PCB board integrated with the current chip,
 
 **Due to the limited quantity of returned chips, the ECOS Team plans to initially release 50 sets of boards.** We hope that all professionals interested in the open-source chip software/hardware ecosystem, those long-term active members of the embedded community, or individual enthusiasts passionate about designing embedded applications with open-source chips will participate in our pilot sales demand survey and the subsequent hands-on experience with this chip. Furthermore, we highly encourage everyone to record unboxing videos of the board, write detailed hands-on testing and embedded application development articles, or provide feedback on issues encountered during use and suggestions for improvement.
 
-## 03 Team Goals and the Upcoming Tapeout Model
+## 03 Team Goals and the Upcoming Tapeout Mode
 The ECOS Team plans to complete the tapeout of an open-source SoC chip by the end of December this year using open-source IP, open-source SoC, open-source EDA, and the ICsprout 55nm open-source PDK. Different from the previous chip, this one will utilize the ICsprout 55nm open-source PDK and can be considered a fully open-source chip. Please stay tuned for updates.
 
 The design flow for this chip includes: open-source IP and SoC, open-source simulation and verification tools (Verilator, Icarus Verilog), an open-source RTL-to-GDS toolchain (Yosys, iEDA, KLayout), and an open-source PDK (ICsprout 55nm). If the chip ultimately powers on successfully, open-source chip technology will take a crucial step forward.
@@ -82,24 +82,24 @@ In most people's perception, the cost of developing a chip is very high, involvi
 
 In fact, if not pursuing extreme PPA (Performance, Power, Area), with the help of the open-source solution, the total cost (design + tools + manufacturing) for a small-to-medium scale (million-gate level) chip (such as Rocket-chip) can be reduced to between 50,000 and 100,000 RMB. This means that if a student wants to design a development board equipped with their own chip (unit price 100 RMB/board), it would only take 1,000 people willing to purchase it to fully recoup the costs. For an even smaller chip (hundred-thousand-gate level), the cost could even drop to 10,000 RMB, requiring only 100 willing buyers. For example, you could team up with other students to design a processor SoC to be used as teaching equipment for next year's operating systems lab course. You could also integrate your own custom module to accelerate your algorithm for use in your robot, which wouldn't significantly increase the chip's cost.
 
-## 04 关于免费流片的征集
-今年12月份的创芯55nm班车上，会搭载“一生一芯”学员芯片，以及开源EDA和开源IP的测试流片。为了支持社区喜欢做开源硬件的同学，同时测试当前开源芯片解决方案的质量，我们决定划出一块面积，用于支持社区免费流片。大家可以自己开发、也可以基于现有开源项目（如Chipyard、PULP等）开发自己的SoC，投递到项目组，申请免费流片。
+## 04 Call for Free Tapeout Submissions
+The December ICsprout 55nm shuttle run will carry the "One Student One Chip" trainee chips, as well as test tapeouts for open-source EDA and open-source IP. To support community members passionate about open-source hardware and to test the quality of the current open-source chip solution, we have decided to allocate a dedicated area on the shuttle to support free community tapeouts. You can develop your own SoC from scratch or based on existing open-source projects (such as Chipyard, PULP, etc.), submit it to the project team, and apply for a free tapeout.
 
-征集条件和信息如下：
+The conditions and information for submissions are as follows:
 
-- 流片截止时间预计为12月中旬，因此大家提交代码的时间需要在10月31日之前。
-- 大家可以提交SoC的RTL代码，后端交给ECOS团队来做。对后端感兴趣的同学，也可以尝试自己做后端设计，我们会提供55nm开源PDK的数据以及开源EDA的技术支持。
-- 同学们也可以只提交处理器核，接入到ECOS团队的开源SoC里。
-- 规模限定在10万instance以下（使用yosys，基于创芯55nm开源PDK综合后的数据）。
-- 开源PDK中的SRAM和PLL仍在研发中，请关注我们的进一步通知（预计10月份可以推出）。
-- 申请流片的代码，可以自己开发，也可以基于开源项目开发。但不可以有知识产权问题，并且可以对外开源。
-- 不要求充分验证，但可以完成基本测试，例如riscv-tests、启动RT-thread或Linux、运行典型负载和Benchmark等。
+- The tapeout deadline is expected to be in mid-December. Therefore, the code submission deadline is before October 31st.
+- You can submit the RTL code for your SoC, and the ECOS Team will handle the backend design. Students interested in backend design are also welcome to attempt it themselves; we will provide the ICsprout 55nm open-source PDK data and technical support for open-source EDA tools.
+- Students may also choose to submit only a processor core to be integrated into the ECOS Team's open-source SoC framework.
+- The design scale is limited to under 100,000 instances (based on synthesis data using Yosys and the ICsprout 55nm open-source PDK).
+- The SRAM and PLL within the open-source PDK are still under development. Please stay tuned for further announcements (expected to be available in October).
+- The code submitted for the tapeout application can be self-developed or based on open-source projects. It must be free of intellectual property issues and be eligible for public open-sourcing.
+- While exhaustive verification is not required, the design should pass basic tests, such as riscv-tests, booting RT-Thread or Linux, and running typical workloads and benchmarks.
 
-为了让大家更好地了解此次活动。我们建了一个微信群，同时安排一次小规模的宣讲会/讨论会。感兴趣的老师和同学，可以来上线参加。会议信息如下：
+To help everyone better understand this event, we have created a WeChat group and will organize a small-scale briefing/discussion session. Interested teachers and students are welcome to join online. The meeting details are as follows:
 
-- 时间：2025年9月6日15:00-16:00
-- 腾讯会议链接：https://meeting.tencent.com/dm/ZafjB30Hyt6L
-- 腾讯会议号：281-629-097
+- Time: September 6, 2025, 15:00 - 16:00
+- Tencent Meeting Link: https://meeting.tencent.com/dm/ZafjB30Hyt6L
+- Tencent Meeting ID: 281-629-097
 
 ![](../../res/img/web/news/20250901/06.webp)
 /// caption
