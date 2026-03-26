@@ -1,12 +1,12 @@
 authors:
   myyerrol:
     name: Yuyang Miao
-    description: Open Source IP / SoC + Embedded Engineer
+    description: Open Source IP/SoC, Embedded Engineer
     avatar: https://github.com/myyerrol.png
     url: https://github.com/myyerrol
   XuLiDa1:
     name: Lida Xu
-    description: Open Source SoC / Backend Engineer
+    description: Open Source SoC, Backend Engineer
     avatar: https://github.com/XuLiDa1.png
     url: https://github.com/XuLiDa1
   zhaoxueyan1:
@@ -19,3 +19,8 @@ authors:
     description: Team Leader
     avatar: https://github.com/puckbee.png
     url: https://github.com/puckbee
+  xiaokesu:
+    name: Xiaoke Su
+    description: OSOC, Internationalization Leader
+    avatar: https://github.com/xiaokesu.png
+    url: https://github.com/xiaokesu
