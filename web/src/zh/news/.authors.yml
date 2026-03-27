@@ -1,12 +1,12 @@
 authors:
   myyerrol:
     name: 缪宇飏
-    description: 开源IP/SoC+嵌入式工程师
+    description: 开源IP/SoC、嵌入式工程师
     avatar: https://github.com/myyerrol.png
     url: https://github.com/myyerrol
   XuLiDa1:
     name: 许立达
-    description: 开源SoC/后端工程师
+    description: 开源SoC、后端工程师
     avatar: https://github.com/XuLiDa1.png
     url: https://github.com/XuLiDa1
   zhaoxueyan1:
@@ -19,3 +19,8 @@ authors:
     description: 团队负责人
     avatar: https://github.com/puckbee.png
     url: https://github.com/puckbee
+  xiaokesu:
+    name: 苏小可
+    description: “一生一芯”计划、国际化负责人
+    avatar: https://github.com/xiaokesu.png
+    url: https://github.com/xiaokesu
