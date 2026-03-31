@@ -14,19 +14,49 @@ hide:
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
                     <div class="px-4 py-5 sm:p-6 markdown">
                         <div class="text-base font-bold">团队介绍</div>
-                        <div>ECOS团队的名字，取自EDA、Chip、OneStudentOneChip、System的首字母，同时为Ecosystem的前四个字母，表意为“生态”。ECOS团队由原“一生一芯”团队和原“开源EDA”团队合并而成，成员主要来自中国科学院计算技术研究所/先进计算机系统研究中心/前沿系统实验室、北京开源芯片研究院等。团队由计算所包云岗老师指导，日常由解壁伟和余子濠负责，现有10余名工程师和数名博硕士生。团队每年在计算所、国科大计算机学院、上海科技大学等单位招收博硕士生。同时，团队与鹏城实验室、深圳大学、山东大学、深圳理工大学、香港科技大学（广州）等学校保持紧密合作。</div>
+                            <ul>
+                            <li><span class="font-bold">创建日期：</span>2021年7月</li>
+                            <li><span class="font-bold">创始单位：</span><a href="https://acs.ict.ac.cn/english" target="_blank">中国科学院计算技术研究所/先进计算机系统研究中心/前沿系统实验室</a>、<a href="https://www.bosc.ac.cn" target="_blank">北京开源芯片研究院</a>等</li>
+                            <li><span class="font-bold">合作伙伴：</span> <a href="https://www.pcl.ac.cn" target="_blank">鹏城实验室</a>、<a href="https://suat-sz.edu.cn" target="_blank">深圳理工大学</a>、<a href="https://www.hkust-gz.edu.cn/zh/" target="_blank">香港科技大学（广州）</a>等</li>
+                            <li><span class="font-bold">标语口号：</span>[构建]一个开源开放、合作共享的芯片生态系统</li>
+                            <li><span class="font-bold">目标计划：</span>ECOS团队致力于构建开源的芯片设计解决方案及其技术生态体系，用<span class="font-bold">“开源”</span>理念革新芯片设计方法，实现<span class="font-bold">“用开源降低芯片设计门槛，赋能千行万业”</span>的终极愿景</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
                     <div class="px-4 py-5 sm:p-6">
                         <div class="text-base font-bold">项目列表</div>
                         <div class="flex flex-row">
-                            <div>
+                            <div class="basis-1/2 border-r border-gray-300 pr-4">
                                 <ul>
-                                    <li><a href="https://ysyx.oscc.cc" target="_blank">一生一芯</a>：大规模开放式公益性芯片及系统人才培养计划</li>
-                                    <li><a href="https://ieda.oscc.cc" target="_blank">iEDA</a>：开源智能EDA工具和基础设施</li>
-                                    <li><a href="https://icsprout55-pdk.rtfd.io" target="_blank">浙江创芯55nm PDK</a>：浙江创芯打造的基于55nm CMOS工艺的开源PDK</li>
-                                    <li><a href="https://studio.oscc.cc" target="_blank">ECOS Studio</a>：基于云端的芯片敏捷和实时协作EDA平台</li>
+                                    <li><span class="font-bold">EDA</span>
+                                        <ul>
+                                            <li><span class="font-bold">ECOS ChipCompiler：</span>一款基于开源EDA工具的芯片设计自动化解决方案</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="font-bold">Chip</span></li>
+                                    <li><span class="font-bold">One Student One Chip</span>
+                                        <ul>
+                                            <li><span class="font-bold">One Student One Chip：</span>大规模开放式公益性芯片及系统人才培养计划</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="font-bold">Community</span>
+                                        <ul>
+                                            <li><span class="font-bold">ECOS ChipCreative：</span>聚焦开源芯片生态系统的社区</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="basis-1/2 pr-4">
+                                <ul>
+                                    <li><span class="font-bold">System Colution</span>
+                                        <ul>
+                                            <li><span class="font-bold">retroSoC：</span>可应用于流片的全开源、可定制ASIC框架</li>
+                                            <li><span class="font-bold">ICsprout55 PDK：</span>浙江创芯打造的基于55nm CMOS工艺的开源PDK</li>
+                                            <li><span class="font-bold">ECOS Embedded：</span>嵌入式开源知识分享平台</li>
+                                            <li><span class="font-bold">ECOS Studio：</span>基于开源IP/SoC + PDK + EDA的RTL2GDS敏捷设计平台</li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

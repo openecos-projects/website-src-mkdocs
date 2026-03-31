@@ -14,19 +14,49 @@ hide:
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
                     <div class="px-4 py-5 sm:p-6 markdown">
                         <div class="text-base font-bold">Introduction</div>
-                        <div>The ECOS Team's name is derived from the first letters of EDA, Chip, OneStudentOneChip, and System, and also the first four letters of Ecosystem, signifying "Ecosystem". The ECOS Team was formed by merging the original "One Student One Chip" Team and the original "Open Source EDA" Team. Members primarily come from the Frontier System Laboratory, Center for Advanced Computer Systems, Institute of Computing Technology, Chinese Academy of Sciences, Beijing Institute of Open Source Chip, etc. The team is guided by Professor Yungang Bao of the Institute of Computing Technology, Chinese Academy of Sciences, and its daily operations are managed by Biwei Xie and Zihao Yu. Currently, it has over 10 engineers and several doctoral and master's students. The team recruits doctoral and master's students annually from the Institute of Computing Technology, Chinese Academy of Sciences, the School of Computer Science of the University of Chinese Academy of Sciences, and ShanghaiTech University. Meanwhile, the team maintains close collaborations with Pengcheng Laboratory, Shenzhen University, Shandong University,  Shenzhen University of Advanced Technology, and Hong Kong University of Science and Technology (Guangzhou).</div>
+                        <ul>
+                            <li><span class="font-bold">Date:</span> July, 2021</li>
+                            <li><span class="font-bold">Members:</span> <a href="https://acs.ict.ac.cn/english" target="_blank">Frontier System Laboratory, Center for Advanced Computer Systems, Institute of Computing Technology, Chinese Academy of Sciences</a>, <a href="https://www.bosc.ac.cn" target="_blank">Beijing Institute of Open Source Chip</a>, etc</li>
+                            <li><span class="font-bold">Partners:</span> <a href="https://www.pcl.ac.cn" target="_blank">PengCheng Laboratory</a>, <a href="https://suat-sz.edu.cn" target="_blank">Shenzhen University of Advanced Technology</a>, <a href="https://www.hkust-gz.edu.cn/zh/" target="_blank">Hong Kong University of Science and Technology (Guangzhou)</a>, etc</li>
+                            <li><span class="font-bold">Slogan:</span> (Build an) <span class="font-bold">E</span>cosystem for <span class="font-bold">C</span>ollaborative and <span class="font-bold">O</span>pen <span class="font-bold">S</span>ilicon</li>
+                            <li><span class="font-bold">Goal:</span> ECOS team are committed to building open-source chip design solutions and its supporting technology ecosystem, using the concept of <span class="font-bold">"open source"</span> to innovate chip design methods, and realizing the ultimate vision of <span class="font-bold">"lowering the threshold of chip design with open source and empowering thousands of industries"</span></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
                     <div class="px-4 py-5 sm:p-6">
                         <div class="text-base font-bold">Project List</div>
                         <div class="flex flex-row">
-                            <div>
+                            <div class="basis-1/2 border-r border-gray-300 pr-4">
                                 <ul>
-                                    <li><a href="https://ysyx.oscc.cc" target="_blank">OSOC</a>: Large-scale Open Public Welfare Chip and System Talent Training Initiative</li>
-                                    <li><a href="https://ieda.oscc.cc" target="_blank">iEDA</a>: Open Source Intelligent EDA Tools and Infrastructure</li>
-                                    <li><a href="https://icsprout55-pdk.rtfd.io" target="_blank">ICsprout55 PDK</a>: 55nm CMOS Open Source PDK by ICsprout Integrated Circuit Co., Ltd.</li>
-                                    <li><a href="https://studio.oscc.cc" target="_blank">ECOS Studio</a>: Cloud-based Agile and Real-time Collaboration EDA Platform</li>
+                                    <li><span class="font-bold">EDA</span>
+                                        <ul>
+                                            <li><span class="font-bold">ECOS ChipCompiler:</span> A Chip Design Automation Solution with Open Source EDA Tools</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="font-bold">Chip</span></li>
+                                    <li><span class="font-bold">One Student One Chip</span>
+                                        <ul>
+                                            <li><span class="font-bold">One Student One Chip:</span> The Large-scale Open Public Welfare Chip and System Talent Training Initiative</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="font-bold">Community</span>
+                                        <ul>
+                                            <li><span class="font-bold">ECOS ChipCreative:</span> A Community focused on the Open Source Chip Ecosystem</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="basis-1/2 pr-4">
+                                <ul>
+                                    <li><span class="font-bold">System Colution</span>
+                                        <ul>
+                                            <li><span class="font-bold">retroSoC:</span> A Fully Open Source and Customizable ASIC Framework for Tapeout Applications</li>
+                                            <li><span class="font-bold">ICsprout55 PDK:</span> The 55nm CMOS Open Source PDK by ICsprout Integrated Circuit Co., Ltd.</li>
+                                            <li><span class="font-bold">ECOS Embedded:</span> An Open Source Knowledge Sharing Platform for Embedded</li>
+                                            <li><span class="font-bold">ECOS Studio:</span> An RTL2GDS Agile Design Platform with Open Source IP/SoC + PDK + EDA</li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
