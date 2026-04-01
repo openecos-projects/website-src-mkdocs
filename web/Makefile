@@ -32,17 +32,17 @@ setup:
 		cd $(REPO_TPL_DIR) && git pull;                                 \
 	fi
 
-	@for target in $(LINK_TARGET); do                                         \
-		if [ ! -e "$$target/res" ]; then                                      \
-			echo "[setup] creating symlink: $$target/res -> $(REPO_RES_DIR)"; \
-			cd $$target && mkdir -p res &&                                    \
-			find ../../res -mindepth 1 -maxdepth 1 -type d ! -name ".git"     \
-				-exec sh -c                                                   \
-				'ln -sfn "$$(realpath --relative-to=res "$$1")" res/'         \
-				_ {} \; &&                                                    \
-			cd -;                                                             \
-		else                                                                  \
-			echo "[setup] symlink already exists: $$target/res";              \
-		fi;                                                                   \
+	@for target in $(LINK_TARGET); do                                          \
+		if [ ! -e "$$target/res" ]; then                                       \
+			echo "[setup] creating softlink: $$target/res -> $(REPO_RES_DIR)"; \
+			cd $$target && mkdir -p res &&                                     \
+			find ../../res -mindepth 1 -maxdepth 1 -type d ! -name ".git"      \
+				-exec sh -c                                                    \
+				'ln -sfn "$$(realpath --relative-to=res "$$1")" res/'          \
+				_ {} \; &&                                                     \
+			cd -;                                                              \
+		else                                                                   \
+			echo "[setup] softlink already exists: $$target/res";              \
+		fi;                                                                    \
 	done
 	@echo "[setup] done!"
