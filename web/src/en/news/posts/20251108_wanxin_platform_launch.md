@@ -3,7 +3,7 @@ authors:
   - XuLiDa1
 categories:
   - Open Source Chip
-  - Talent Cultivation
+  - One Student One Chip
 date: 2025-11-08
 desc: The "Wanxin" Open Source Chip Talent Cultivation Platform was Successfully Launched!
 ---

@@ -3,7 +3,7 @@ authors:
   - XuLiDa1
 categories:
   - 开源芯片
-  - 人才培养
+  - 一生一芯
 date: 2025-11-08
 desc: “万芯”开源芯片人才培养平台成功发布！
 ---
