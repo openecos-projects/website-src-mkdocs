@@ -1,5 +1,8 @@
 ---
-# authors:
+authors:
+  - SZTUChips
+  - O5order
+  - next-zeta
 categories:
   - 开源芯片
   - 一生一芯
