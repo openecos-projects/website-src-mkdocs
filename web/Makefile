@@ -2,7 +2,7 @@
 
 REPO_RES_DIR := res
 REPO_TPL_DIR := tpl
-ifeq ($(MKDOCS_ENV),deploy)
+ifeq ($(MKDOCS_ENV), deploy)
     REPO_PREFIX := https://github.com/
 else
     REPO_PREFIX := git@github.com:
