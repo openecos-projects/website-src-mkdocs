@@ -15,12 +15,12 @@ desc: “万芯”开源芯片人才培养平台成功发布！
 
 <!-- more -->
 
-![](../../res/img/web/news/20251108/01.jpg)
+![](../../res/img/web/news/20251108/01.webp)
 /// caption
 “万芯”平台的发布现场
 ///
 
-![](../../res/img/web/news/20251108/02.jpg)
+![](../../res/img/web/news/20251108/02.webp)
 /// caption
 “万芯”平台的功能介绍
 ///
