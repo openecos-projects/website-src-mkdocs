@@ -18,7 +18,7 @@ As a key maintainer of this PDK and one of the main providers of open-source chi
 
 The ECOS Team firmly believes that while most people perceive chip development as extremely costly, including tool expenses (EDA tools and IP licensing), personnel costs, and manufacturing costs (tapeout and packaging), often reaching hundreds of millions of dollars, the increasing maturity of open-source chip design solutions (open-source IP + open-source SoC + open-source EDA + open-source PDK) has significantly reduced the barriers to entry and the cost of designing and verifying a chip. This is an inevitable trend of the technological age and a natural progression of history.
 
-![](../../res/img/pdk/icsprout.png)
+![](../../res/img/pdk/icsprout.webp)
 /// caption
 The world's first provider of 55nm open-source PDK
 ///

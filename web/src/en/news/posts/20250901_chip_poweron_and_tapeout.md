@@ -40,12 +40,12 @@ The detailed chip specifications are as follows:
 - Domestic 110nm process
 - Package: QFN-128
 
-![](../../res/img/web/news/20250901/01.png)
+![](../../res/img/web/news/20250901/01.webp)
 /// caption
 SoC Specification
 ///
 
-![](../../res/img/web/news/20250901/02.png)
+![](../../res/img/web/news/20250901/02.webp)
 /// caption
 SoC Layout
 ///
@@ -55,7 +55,7 @@ SoC Layout
 StarrySky C1 Board
 ///
 
-![](../../res/img/web/news/20250901/04.jpg)
+![](../../res/img/web/news/20250901/04.webp)
 /// caption
 StarrySky C1 Board has passed the power-on test
 ///

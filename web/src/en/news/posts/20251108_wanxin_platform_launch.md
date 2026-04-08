@@ -15,12 +15,12 @@ At the forum, the open-source chip team of the Institute of Computing Technology
 
 <!-- more -->
 
-![](../../res/img/web/news/20251108/01.jpg)
+![](../../res/img/web/news/20251108/01.webp)
 /// caption
 Launch event for the "Wanxin" platform
 ///
 
-![](../../res/img/web/news/20251108/02.jpg)
+![](../../res/img/web/news/20251108/02.webp)
 /// caption
 Introduction to the functions of the "Wanxin" platform
 ///
