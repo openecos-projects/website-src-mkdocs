@@ -12,7 +12,9 @@ desc: "Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Ta
 ---
 
 # Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Taped Out and Powered On! Now Open for Trial and TapeOut Application
-The ECOS Team completed tapeout and poweron of an open-source SoC chip using open-source EDA + open-source IP + domestic 110nm process. This is a significant milestone for both "One Student One Chip" and ECOS Team! <!-- more -->
+The ECOS Team completed tapeout and poweron of an open-source SoC chip using open-source EDA + open-source IP + domestic 110nm process. This is a significant milestone for both "One Student One Chip" and ECOS Team!
+
+<!-- more -->
 
 ## 01 Summary and Overview
 Behind the "One Student One Chip" program, there is a technical support team — ECOS Team. ECOS is derived from the initials of EDA, Chip, OneStudentOneChip, and System, while also constituting the first four letters of "Ecosystem," symbolizing its meaning. The ECOS Team is dedicated to building open-source chip design solutions, covering open-source EDA tools, open-source IP, open-source SoCs, and providing technical support for backend design, tapeout, and PCB boards.
