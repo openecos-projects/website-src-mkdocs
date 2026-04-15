@@ -21,7 +21,7 @@ authors:
     url: https://github.com/puckbee
   xiaokesu:
     name: Xiaoke Su
-    description: OSOC, Internationalization Leader
+    description: OSOC Leader
     avatar: https://github.com/xiaokesu.png
     url: https://github.com/xiaokesu
   SZTUChips:
@@ -39,3 +39,8 @@ authors:
     description: OSOC Teaching Assistant
     avatar: https://github.com/next-zeta.png
     url: https://github.com/next-zeta
+  OSCPU:
+    name: OSCPU
+    description: OSOC Team
+    avatar: https://github.com/OSCPU.png
+    url: https://github.com/OSCPU

@@ -21,21 +21,26 @@ authors:
     url: https://github.com/puckbee
   xiaokesu:
     name: 苏小可
-    description: “一生一芯”计划、国际化负责人
+    description: “一生一芯”负责人
     avatar: https://github.com/xiaokesu.png
     url: https://github.com/xiaokesu
   SZTUChips:
     name: 杨昊天
-    description: “一生一芯”计划助教
+    description: “一生一芯”助教
     avatar: https://github.com/SZTUChips.png
     url: https://github.com/SZTUChips
   O5order:
     name: 许鹏远
-    description: “一生一芯”计划助教
+    description: “一生一芯”助教
     avatar: https://github.com/O5order.png
     url: https://github.com/O5order
   next-zeta:
     name: 陈炫君
-    description: “一生一芯”计划助教
+    description: “一生一芯”助教
     avatar: https://github.com/next-zeta.png
     url: https://github.com/next-zeta
+  OSCPU:
+    name: OSCPU
+    description: “一生一芯”团队
+    avatar: https://github.com/OSCPU.png
+    url: https://github.com/OSCPU
