@@ -38,6 +38,7 @@ plugins:
       blog_toc: true
       post_url_format: "{file}"
   - include-markdown
+  - mkdocs-video:
 
 extra:
   beian:
