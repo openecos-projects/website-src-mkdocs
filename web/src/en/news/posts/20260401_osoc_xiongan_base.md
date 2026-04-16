@@ -5,7 +5,9 @@ categories:
   - One Student One Chip
   - Offline Base
 date: 2026-04-01
-desc: “一生一芯”雄安基地首期顺利结营
+desc: >-
+  "One Student One Chip" Xiong'an Base First Cohort Successfully Concludes
+
 ---
 
 # "One Student One Chip" Xiong'an Base First Cohort Successfully Concludes
