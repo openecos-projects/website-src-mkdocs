@@ -16,6 +16,8 @@ On March 7, the Fourth Session of the 14th National People's Congress held a pre
 **Excerpt from Minister Huai's remarks:**
 > In alignment with national strategies, particularly in frontier fields such as artificial intelligence, integrated circuits, life sciences, new energy, and quantum technology, we are exploring new mechanisms and models for cultivating innovative talent independently. For example, in the integrated circuits field, we have integrated technological innovation with industrial innovation and implemented the "One Student One Chip" initiative in talent cultivation. This is a program where each graduate student designs one chip, ensuring that every student graduates with the ability to design and manufacture chips. This provides a crucial foundation for industrial practice and driving innovation.
 
+![type:video](../../res/img/web/news/20260311/01.mp4)
+
 The source material is from the official website of the Ministry of Education of the People's Republic of China: ["Two Sessions Press Conference | Minister of Education Huai Jinpeng: Promoting the Transformation of Universities from Discipline-Focused Development to Serving National Missions"](https://mp.weixin.qq.com/s/mjkLE73YULTDE1YdwoO-Pg)
 
 **Editor's Note:**
