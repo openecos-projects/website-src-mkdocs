@@ -4,7 +4,8 @@ authors:
 categories:
   - One Student One Chip
 date: 2026-03-11
-desc: 'Minister of Education Huai Jinpeng: "One Student One Chip" Initiative – A New Model for Integrated Circuit Talent Cultivation'
+desc: >-
+  Minister of Education Huai Jinpeng: "One Student One Chip" Initiative – A New Model for Integrated Circuit Talent Cultivation
 ---
 
 # Minister of Education Huai Jinpeng: "One Student One Chip" Initiative – A New Model for Integrated Circuit Talent Cultivation

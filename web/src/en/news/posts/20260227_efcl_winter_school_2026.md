@@ -8,7 +8,8 @@ categories:
   - One Student One Chip
   - EFCL School
 date: 2026-02-27
-desc: "A Journey to Zurich: An International Classroom on Open-Source Chips"
+desc: >-
+  A Journey to Zurich: An International Classroom on Open-Source Chips
 ---
 
 # A Journey to Zurich: An International Classroom on Open-Source Chips

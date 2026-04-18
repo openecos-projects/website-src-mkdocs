@@ -5,7 +5,8 @@ categories:
   - One Student One Chip
   - Kazakhstan
 date: 2026-01-20
-desc: '"One Student One Chip" First International Bootcamp Successfully Concluded'
+desc: >-
+  "One Student One Chip" First International Bootcamp Successfully Concluded
 ---
 
 # "One Student One Chip" First International Bootcamp Successfully Concluded

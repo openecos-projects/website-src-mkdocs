@@ -8,7 +8,8 @@ categories:
   - Chip PowerOn
   - TapeOut Application
 date: 2025-09-01
-desc: "Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Taped Out and Powered On! Now Open for Trial and TapeOut Application"
+desc: >-
+  Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Taped Out and Powered On! Now Open for Trial and TapeOut Application
 ---
 
 # Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Taped Out and Powered On! Now Open for Trial and TapeOut Application
