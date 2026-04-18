@@ -18,3 +18,5 @@ To ensure training quality, the first cohort invited 8 outstanding teaching assi
 Now, let's follow the camera to experience the learning and life at the base.
 
 <!-- more -->
+
+![type:video](../../res/img/web/news/20260401/01.mp4)
