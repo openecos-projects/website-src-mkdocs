@@ -16,8 +16,6 @@ hide:
                         <div class="text-base font-bold">Introduction</div>
                         <ul>
                             <li><span class="font-bold">Date:</span> July, 2021</li>
-                            <li><span class="font-bold">Members:</span> <a href="https://acs.ict.ac.cn/english" target="_blank">Frontier System Laboratory, Center for Advanced Computer Systems, Institute of Computing Technology, Chinese Academy of Sciences</a>, <a href="https://www.bosc.ac.cn" target="_blank">Beijing Institute of Open Source Chip</a>, etc</li>
-                            <li><span class="font-bold">Partners:</span> <a href="https://www.pcl.ac.cn" target="_blank">PengCheng Laboratory</a>, <a href="https://suat-sz.edu.cn" target="_blank">Shenzhen University of Advanced Technology</a>, <a href="https://www.hkust-gz.edu.cn/zh/" target="_blank">Hong Kong University of Science and Technology (Guangzhou)</a>, etc</li>
                             <li><span class="font-bold">Slogan:</span> (Build an) <span class="font-bold">E</span>cosystem for <span class="font-bold">C</span>ollaborative and <span class="font-bold">O</span>pen <span class="font-bold">S</span>ilicon</li>
                             <li><span class="font-bold">Goal:</span> ECOS team are committed to building open-source chip design solutions and its supporting technology ecosystem, using the concept of <span class="font-bold">"open source"</span> to innovate chip design methods, and realizing the ultimate vision of <span class="font-bold">"lowering the threshold of chip design with open source and empowering thousands of industries"</span></li>
                         </ul>
