@@ -16,8 +16,6 @@ hide:
                         <div class="text-base font-bold">团队介绍</div>
                             <ul>
                             <li><span class="font-bold">创建日期：</span>2021年7月</li>
-                            <li><span class="font-bold">创始单位：</span><a href="https://acs.ict.ac.cn/english" target="_blank">中国科学院计算技术研究所/先进计算机系统研究中心/前沿系统实验室</a>、<a href="https://www.bosc.ac.cn" target="_blank">北京开源芯片研究院</a>等</li>
-                            <li><span class="font-bold">合作伙伴：</span> <a href="https://www.pcl.ac.cn" target="_blank">鹏城实验室</a>、<a href="https://suat-sz.edu.cn" target="_blank">深圳理工大学</a>、<a href="https://www.hkust-gz.edu.cn/zh/" target="_blank">香港科技大学（广州）</a>等</li>
                             <li><span class="font-bold">标语口号：</span>[构建]一个开源开放、合作共享的芯片生态系统</li>
                             <li><span class="font-bold">目标计划：</span>ECOS团队致力于构建开源的芯片设计解决方案及其技术生态体系，用<span class="font-bold">“开源”</span>理念革新芯片设计方法，实现<span class="font-bold">“用开源降低芯片设计门槛，赋能千行万业”</span>的终极愿景</li>
                         </ul>
