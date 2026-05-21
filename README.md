@@ -16,13 +16,13 @@ Before running commands, make sure your environment has Python 3.10+, Node.js 22
 
 - Edit
 
-  If you need to add new images or videos in Markdown files, please follow this workflow:
+  Please follow this workflow to add new images or videos:
 
-    - Upload lossless original images (JPG or PNG) or pre-compressed videos (MP4) to the corresponding directory under `web/res/img`.
-    - Run `make gen-webp` in the `web` directory, and scripts in `web/tpl` will automatically convert original images to smaller WEBP files.
+    - Upload lossless original images (JPG or PNG format) or pre-compressed videos (MP4 format) to the corresponding directory under `web/res/img`.
+    - Run `make gen-webp` command in the `web` directory, and scripts in `web/tpl` will automatically convert original images to smaller WEBP images.
     - Reference the generated WEBP images in your Markdown files.
 
-  Note: running `make gen-webp` is optional. If you run `make serve-web` in the next Preview step, the system will also convert images automatically. Video compression is not currently supported by script, so please compress videos in advance before uploading them to `web/res/img`.
+  Note: running `make gen-webp` is optional. If you run `make serve-web` in the next **Preview** step, the system will also convert images automatically. **Video compression is not currently supported by script, so please compress videos in advance before uploading them to `web/res/img`.**
 
 - Preview
 
