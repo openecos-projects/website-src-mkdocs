@@ -1,6 +1,6 @@
 # ECOS Website Sources
 ## Introduction
-This repository contains the source files for the ECOS official website, generated with **MkDocs Material** as a bilingual site (`web/src/zh` and `web/src/en`) with a lightweight frontend asset pipeline for consistent local preview and production output.
+This repository contains the source files for the ECOS official website, generated with **MkDocs Material + Tailwindcss** as a bilingual site (`web/src/zh` and `web/src/en`) with a lightweight frontend asset pipeline for consistent local preview and production output.
 
 ## Usage
 Before running commands, make sure your environment has Python 3.10+, Node.js 22+ and Git.
