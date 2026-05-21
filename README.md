@@ -19,10 +19,10 @@ Before running commands, make sure your environment has Python 3.10+, Node.js 22
   Please follow this workflow to add new images or videos:
 
     - Upload lossless original images (JPG or PNG format) or pre-compressed videos (MP4 format) to the corresponding directory under `web/res/img`.
-    - Run `make gen-webp` command in the `web` directory, and scripts in `web/tpl` will automatically convert original images to smaller WEBP images.
+    - Run `make gen-webp` command in the `web` directory, and scripts in `web/tpl` will automatically convert original images to smaller WEBP images (lossy compression).
     - Reference the generated WEBP images in your Markdown files.
 
-  Note: running `make gen-webp` is optional. If you run `make serve-web` in the next **Preview** step, the system will also convert images automatically. **Video compression is not currently supported by script, so please compress videos in advance before uploading them to `web/res/img`.**
+  Note: running `make gen-webp` command is optional. If you run `make serve-web` command in the next **Preview** step, the system will also convert images automatically. **Video compression is not currently supported by script, so please compress videos in advance before uploading them to `web/res/img`.**
 
 - Preview
 
@@ -60,9 +60,9 @@ Before running commands, make sure your environment has Python 3.10+, Node.js 22
 
 - Deploy
 
-  If you modify files in local `web/res` or `web/tpl` (for example, new images, templates, scripts, or styles), commit and push those changes to their corresponding repositories first.
+  If you modify files in local `web/res` or `web/tpl` (for example, add new images, templates, scripts, or styles), commit and push those changes to their corresponding repositories first.
 
-  Commit and push your changes in `web/src` to this repository. Vercel will then detect the update and automatically build and deploy the website according to `vercel.json`.
+  Commit and push your changes in `web/src` to this repository. Vercel (a cloud platform designed to simplify web development) will then detect the update and automatically build and deploy the website according to `vercel.json`.
 
 - Clean
 
