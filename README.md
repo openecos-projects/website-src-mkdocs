@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the source files for the ECOS official website, generated with **MkDocs Material + Tailwindcss** as a bilingual site (`web/src/zh` and `web/src/en`) with a lightweight frontend asset pipeline for consistent local preview and production output.
+This repository contains the source files for the ECOS Website, generated with **MkDocs Material + Tailwindcss** as a bilingual site (`web/src/zh` and `web/src/en`) with a lightweight frontend asset pipeline for consistent local preview and production output.
 
 ## Usage
 
