@@ -1,17 +1,20 @@
 # ECOS Website Sources
+
 ## Introduction
+
 This repository contains the source files for the ECOS official website, generated with **MkDocs Material + Tailwindcss** as a bilingual site (`web/src/zh` and `web/src/en`) with a lightweight frontend asset pipeline for consistent local preview and production output.
 
 ## Usage
+
 Before running commands, make sure your environment has Python 3.10+, Node.js 22+ and Git.
 
 - Setup
 
   Initialize shared repositories (`res` and `tpl`) and prepare the local project workspace.
 
-  ```sh
-  > cd web
-  > make setup
+  ```bash
+  cd web
+  make setup
   ```
 
 - Edit
@@ -28,34 +31,34 @@ Before running commands, make sure your environment has Python 3.10+, Node.js 22
 
   Start a local development server for the Chinese site (default language).
 
-  ```sh
-  > cd web
-  > make serve-web
+  ```bash
+  cd web
+  make serve-web
   ```
 
   Start a local development server for the English site.
 
-  ```sh
-  > cd web
-  > make serve-web MKDOCS_LANG=en
+  ```bash
+  cd web
+  make serve-web MKDOCS_LANG=en
   ```
 
 - Build
 
   Generate dynamic assets and build the Chinese static site output.
 
-  ```sh
-  > cd web
-  > make gen-web
-  > make build-web
+  ```bash
+  cd web
+  make gen-web
+  make build-web
   ```
 
   Generate dynamic assets and build the English static site output.
 
-  ```sh
-  > cd web
-  > make gen-web MKDOCS_LANG=en
-  > make build-web MKDOCS_LANG=en
+  ```bash
+  cd web
+  make gen-web MKDOCS_LANG=en
+  make build-web MKDOCS_LANG=en
   ```
 
 - Deploy
@@ -68,7 +71,7 @@ Before running commands, make sure your environment has Python 3.10+, Node.js 22
 
   Remove generated files and local build artifacts for a fresh rebuild.
 
-  ```sh
-  > cd web
-  > make clean
+  ```bash
+  cd web
+  make clean
   ```
