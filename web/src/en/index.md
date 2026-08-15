@@ -47,7 +47,7 @@ hide:
                             </div>
                             <div class="basis-1/2 pr-4">
                                 <ul>
-                                    <li><span class="font-bold">System Colution</span>
+                                    <li><span class="font-bold">System Solution</span>
                                         <ul>
                                             <li><span class="font-bold">retroSoC:</span> A Fully Open Source and Customizable ASIC Framework for Tapeout Applications</li>
                                             <li><span class="font-bold">ICsprout55 PDK:</span> The 55nm CMOS Open Source PDK by ICsprout Integrated Circuit Co., Ltd.</li>
