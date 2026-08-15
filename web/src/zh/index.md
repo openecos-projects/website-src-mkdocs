@@ -47,7 +47,7 @@ hide:
                             </div>
                             <div class="basis-1/2 pr-4">
                                 <ul>
-                                    <li><span class="font-bold">System Colution</span>
+                                    <li><span class="font-bold">System Solution</span>
                                         <ul>
                                             <li><span class="font-bold">retroSoC：</span>可应用于流片的全开源、可定制ASIC框架</li>
                                             <li><span class="font-bold">ICsprout55 PDK：</span>浙江创芯打造的基于55nm CMOS工艺的开源PDK</li>
