@@ -169,7 +169,7 @@ ECOS C4 chip board
 ECOS C4 chip outputting encryption and decryption results
 ///
 
-## 03 ECOS Factory Open-Source IP
+## 03 ECOS Factory Open Source IP
 
 The ECOS IP library is an important component of the ECOS Factory tapeout platform and **will provide users with silicon-validated, directly integrable IP packages.** The **ICS55 macros** are a series of foundry IP blocks developed by the ECOS Team using the **ICsprout 55nm open-source PDK**. They encapsulate complex analog, digital, or mixed-signal functions as standard macros and provide LEF, Liberty, Verilog models, and interface documentation for use in RTL simulation, logic synthesis, placement and routing, and other backend stages. Thanks to standardized interfaces, supporting models, and post-silicon validation, ICS55 macros eliminate the traditionally complicated foundry-IP development and adaptation process, significantly shorten chip design and verification cycles, and greatly improve the reusability of digital-circuit designs and tapeout success rates. **All foundry IP except the DDR PHY has now completed post-silicon validation.**
 
