@@ -6,6 +6,8 @@ categories:
   - Open Source IP
   - Open Source PDK
   - ICsprout
+  - Chip Bring-up
+  - Tapeout
 date: 2026-09-22
 desc: >-
   First Round Open Source 55nm Tapeout Results: Multiple Chips Successfully Brought Up
@@ -176,7 +178,7 @@ The ECOS IP library is an important component of the ECOS Factory tapeout platfo
 ECOS ICS55 macro library
 ///
 
-The ECOS IP library provides the world's first SRAM Compiler for an open-source 55nm process ([factory.openecos.com/ip/sram](https://factory.openecos.com/ip/sram)). It supports online configuration of synchronous single-port SRAM for the ICS 55nm process, with capacities up to 640 Kbit (80 KiB) and data widths from 2 to 160 bits. Users can set the memory specifications, implementation options, and interfaces as needed, then generate and download a package online. The ECOS Team has also introduced a **macro preview** feature to the Compiler for the first time, allowing users to view the configured SRAM macro's area, dimensions, frequency, power consumption, and other information in real time for early-stage selection. The ROM Compiler ([factory.openecos.com/ip/rom](https://factory.openecos.com/ip/rom)) follows a similar process and supports online configuration of synchronous single-port ROM for the ICS 55nm process, with capacities up to 1 Mbit (128 KiB) and data widths from 4 to 128 bits. Note that **the `.romcode` file in the package contains only zeros by default and can be replaced locally for simulation. For tapeout, specify the required ROM content replacement in the order comments; the ECOS Team will generate the corresponding layout.**
+The ECOS IP library provides the world's first SRAM Compiler for an open-source 55nm process ([https://factory.openecos.com/ip/sram](https://factory.openecos.com/ip/sram)). It supports online configuration of synchronous single-port SRAM for the ICS 55nm process, with capacities up to 640 Kbit (80 KiB) and data widths from 2 to 160 bits. Users can set the memory specifications, implementation options, and interfaces as needed, then generate and download a package online. The ECOS Team has also introduced a **macro preview** feature to the Compiler for the first time, allowing users to view the configured SRAM macro's area, dimensions, frequency, power consumption, and other information in real time for early-stage selection. The ROM Compiler ([https://factory.openecos.com/ip/rom](https://factory.openecos.com/ip/rom)) follows a similar process and supports online configuration of synchronous single-port ROM for the ICS 55nm process, with capacities up to 1 Mbit (128 KiB) and data widths from 4 to 128 bits. Note that **the `.romcode` file in the package contains only zeros by default and can be replaced locally for simulation. For tapeout, specify the required ROM content replacement in the order comments; the ECOS Team will generate the corresponding layout.**
 
 ![](../../res/img/web/news/20260922/14.webp)
 /// caption
