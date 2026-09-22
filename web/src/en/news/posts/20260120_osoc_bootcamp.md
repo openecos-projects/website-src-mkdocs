@@ -23,7 +23,7 @@ In February 2024, Professor Kabylkas adopted the "One Student One Chip" initiati
 Dr. Zihao Yu and Professor Kabylkas
 ///
 
-In March 2025, we invited Professor Kabylkas and his students to Beijing to participate in chip debugging and poweron. Together, we witnessed the moment the chip powered on. This achievement was not only a valuable outcome for the instructors and students but also carried special historical significance—it became the first processor chip designed under Kazakhstani leadership. The students involved also became the country's first‑generation processor chip design talents.
+In March 2025, we invited Professor Kabylkas and his students to Beijing to participate in chip debugging and bring-up. Together, we witnessed the moment the chip was brought up. This achievement was not only a valuable outcome for the instructors and students but also carried special historical significance—it became the first processor chip designed under Kazakhstani leadership. The students involved also became the country's first‑generation processor chip design talents.
 
 ![](../../res/img/web/news/20260120/02.webp)
 /// caption

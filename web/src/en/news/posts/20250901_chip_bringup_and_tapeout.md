@@ -5,15 +5,15 @@ authors:
 categories:
   - Open Source EDA
   - Open Source IP
-  - Chip PowerOn
-  - TapeOut Application
+  - Chip Bring-up
+  - Tapeout
 date: 2025-09-01
 desc: >-
-  Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Taped Out and Powered On! Now Open for Trial and TapeOut Application
+  Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Taped Out and Brought Up! Now Open for Trial and TapeOut Application
 ---
 
-# Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Taped Out and Powered On! Now Open for Trial and TapeOut Application
-The ECOS Team completed tapeout and poweron of an open-source SoC chip using open-source EDA + open-source IP + domestic 110nm process. This is a significant milestone for both "One Student One Chip" and ECOS Team!
+# Open Source EDA + Open Source IP + Domestic Process: Chip Successfully Taped Out and Brought Up! Now Open for Trial and TapeOut Application
+The ECOS Team completed tapeout and bring-up of an open-source SoC chip using open-source EDA + open-source IP + domestic 110nm process. This is a significant milestone for both "One Student One Chip" and ECOS Team!
 
 <!-- more -->
 
@@ -60,7 +60,7 @@ StarrySky C1 Board
 
 ![](../../res/img/web/news/20250901/04.webp)
 /// caption
-StarrySky C1 Board has passed the power-on test
+StarrySky C1 Board has passed the bring-up test
 ///
 
 ![](../../res/img/web/news/20250901/05.webp)
@@ -70,7 +70,7 @@ StarrySky C1 Board runs the donut program
 
 Given the numerous inquiries from students, the ECOS Team plans to initiate the distribution, trial, and pilot sale of this chip.
 
-**Formal "One Student One Chip" trainees can apply to receive the chip for free based on their needs (in return for providing an unboxing and power-on video or article).** Other enthusiasts can purchase it at an estimated price of around 100 RMB (proceeds will be used to support the "One Student One Chip" program and the iteration of open-source chip technology). [Interested students can join the WeChat group at the bottom].
+**Formal "One Student One Chip" trainees can apply to receive the chip for free based on their needs (in return for providing an unboxing and bring-up video or article).** Other enthusiasts can purchase it at an estimated price of around 100 RMB (proceeds will be used to support the "One Student One Chip" program and the iteration of open-source chip technology). [Interested students can join the WeChat group at the bottom].
 
 The development board kit includes a PCB board integrated with the current chip, a USB cable for power supply and programming, common electronic development accessories (such as Dupont wires, breadboards, LEDs, switches, temperature and humidity sensors, LED screens, etc.), a software tool package (programming software, compilation toolchain, sample programs, etc.), and ECOS Team merchandise (e.g., stickers).
 
