@@ -5,7 +5,7 @@ hide:
   - footer
 ---
 
-<div class="text-4xl font-bold text-center mb-4">开源芯片生态团队</div>
+<div class="text-4xl font-bold text-center mb-4">ECOS开源芯片</div>
 <div class="text-xl font-medium text-center">[构建]一个开源开放、合作共享的芯片生态系统</div>
 <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mt-8 mb-13!">
     <div class="flex flex-col md:flex-row sm:flex-col gap-4">

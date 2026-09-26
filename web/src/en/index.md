@@ -5,7 +5,7 @@ hide:
   - footer
 ---
 
-<div class="text-4xl font-bold text-center mb-4">Open Source Chip Ecosystem Team</div>
+<div class="text-4xl font-bold text-center mb-4">ECOS Open Silicon</div>
 <div class="text-xl font-medium text-center">(Build an) Ecosystem for Collaborative and Open Silicon</div>
 <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mt-8 mb-13!">
     <div class="flex flex-col md:flex-row sm:flex-col gap-4">
@@ -17,7 +17,7 @@ hide:
                         <ul>
                             <li><span class="font-bold">Date:</span> July, 2021</li>
                             <li><span class="font-bold">Slogan:</span> (Build an) <span class="font-bold">E</span>cosystem for <span class="font-bold">C</span>ollaborative and <span class="font-bold">O</span>pen <span class="font-bold">S</span>ilicon</li>
-                            <li><span class="font-bold">Goal:</span> ECOS team are committed to building open-source chip design solutions and its supporting technology ecosystem, using the concept of <span class="font-bold">"open source"</span> to innovate chip design methods, and realizing the ultimate vision of <span class="font-bold">"lowering the threshold of chip design with open source and empowering thousands of industries"</span></li>
+                            <li><span class="font-bold">Goal:</span> We are committed to building open-source chip design solutions and its supporting technology ecosystem, using the concept of <span class="font-bold">"open source"</span> to innovate chip design methods, and realizing the ultimate vision of <span class="font-bold">"lowering the threshold of chip design with open source and empowering thousands of industries"</span></li>
                         </ul>
                     </div>
                 </div>

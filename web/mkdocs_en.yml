@@ -3,7 +3,7 @@ INHERIT: tpl/cfg/mkdocs_base.yml
 docs_dir: src/en
 site_dir: site/en
 
-site_name: ECOS Team
+site_name: ECOS Open Silicon
 
 theme:
   palette:
