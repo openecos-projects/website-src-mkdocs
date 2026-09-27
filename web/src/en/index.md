@@ -205,8 +205,10 @@ hide:
                     <div class="px-4 py-5 sm:p-6">
                         <div class="text-base font-bold">Community & Resources</div>
                         <ul>
-                            <li><a href="https://wiki.f-si.org/images/2/2e/20250701-OSOC-0703.pptx.pdf" target="_blank">[FSiC2025 PPT] "One Student One Chip" initiative: Learn to build RISC-V chips from scratch with MOOC</a></li>
-                            <li><a href="https://wiki.f-si.org/images/a/ad/FSiC2025_Making_Open_Silicon_Design_Everywhere_final_version_present.pdf" target="_blank">[FSiC2025 PPT] Making Open Silicon Design Everywhere: Using Cloud-based Open Agile EDA Platform</a></li>
+                            <li><a href="https://wiki.f-si.org/images/5/5f/ECOS_Studio.pdf" target="_blank">[FSiC 2026] ECOS Studio: an RTL-to-chip silicon design solution with open-source EDA, IP, and PDK</a></li>
+                            <li><a href="https://wiki.f-si.org/images/d/d8/%E2%80%9COne_Student_One_Chip%E2%80%9DInitiative-_Learn_to_Build_RISC-V_Chips_from_Scratch_with_MOOC.pdf" target="_blank">[FSiC 2026] "One Student One Chip" initiative: learn to build RISC-V chips from scratch with MOOC</a></li>
+                            <li><a href="https://wiki.f-si.org/images/2/2e/20250701-OSOC-0703.pptx.pdf" target="_blank">[FSiC 2025] "One Student One Chip" initiative: Learn to build RISC-V chips from scratch with MOOC</a></li>
+                            <li><a href="https://wiki.f-si.org/images/a/ad/FSiC2025_Making_Open_Silicon_Design_Everywhere_final_version_present.pdf" target="_blank">[FSiC 2025] Making Open Silicon Design Everywhere: Using Cloud-based Open Agile EDA Platform</a></li>
                         </ul>
                     </div>
                 </div>
