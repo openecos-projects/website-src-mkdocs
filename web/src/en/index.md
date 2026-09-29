@@ -5,6 +5,179 @@ hide:
   - footer
 ---
 
+<style>
+    .ecos-carousel {
+        --carousel-border: var(--md-default-fg-color--lightest);
+        background: var(--md-default-bg-color);
+        border-bottom: 1px solid var(--carousel-border);
+        position: relative;
+    }
+
+    .ecos-carousel__stage {
+        aspect-ratio: 3 / 2;
+        background: color-mix(in srgb, var(--md-default-fg-color) 4%, var(--md-default-bg-color));
+        overflow: hidden;
+        position: relative;
+    }
+
+    .ecos-carousel__slide {
+        display: grid;
+        grid-template-rows: minmax(0, 1fr) auto;
+        inset: 0;
+        margin: 0;
+        opacity: 0;
+        position: absolute;
+        transition: opacity 320ms ease, visibility 320ms ease;
+        visibility: hidden;
+    }
+
+    .md-typeset figure.ecos-carousel__slide {
+        display: grid;
+        height: 100%;
+        margin: 0;
+        max-width: none;
+        width: 100%;
+    }
+
+    .ecos-carousel__slide.is-active {
+        opacity: 1;
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .md-typeset .ecos-carousel__media {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        min-height: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .md-typeset .ecos-carousel__media img {
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+        object-position: center center;
+        width: 100%;
+    }
+
+    .md-typeset figcaption.ecos-carousel__caption {
+        align-items: center;
+        background: var(--md-default-bg-color);
+        border-top: 1px solid var(--carousel-border);
+        display: flex;
+        gap: 0.65rem;
+        justify-content: center;
+        margin: 0;
+        max-width: none;
+        min-height: 2.65rem;
+        padding: 0.55rem 0.85rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .ecos-carousel__tag {
+        color: #d95b00;
+        flex: 0 0 auto;
+        font-size: 0.62rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    [data-md-color-scheme="ecos-dark"] .ecos-carousel__tag {
+        color: #ff9b52;
+    }
+
+    .ecos-carousel__title {
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .ecos-carousel__controls {
+        align-items: center;
+        display: grid;
+        gap: 0.65rem;
+        grid-template-columns: 2rem minmax(0, 1fr) 2rem 2rem;
+        min-height: 2.7rem;
+        padding: 0.35rem 0.65rem;
+    }
+
+    .ecos-carousel__button {
+        align-items: center;
+        background: transparent;
+        border: 1px solid var(--carousel-border);
+        border-radius: 50%;
+        color: var(--md-typeset-color);
+        cursor: pointer;
+        display: inline-flex;
+        font-size: 0.8rem;
+        height: 1.75rem;
+        justify-content: center;
+        line-height: 1;
+        padding: 0;
+        width: 1.75rem;
+    }
+
+    .ecos-carousel__button:hover,
+    .ecos-carousel__button:focus-visible {
+        border-color: #ff710d;
+        color: #ff710d;
+        outline: none;
+    }
+
+    .ecos-carousel__dots {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.42rem;
+        justify-content: center;
+    }
+
+    .ecos-carousel__dot {
+        background: var(--md-default-fg-color--lightest);
+        border: 0;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 0.42rem;
+        padding: 0;
+        transition: background-color 160ms ease, transform 160ms ease;
+        width: 0.42rem;
+    }
+
+    .ecos-carousel__dot.is-active {
+        background: #ff710d;
+        transform: scale(1.35);
+    }
+
+    @media (max-width: 600px) {
+        .md-header .md-select__inner {
+            right: 0;
+            left: auto;
+        }
+
+        .ecos-carousel__stage {
+            aspect-ratio: 1 / 1;
+        }
+
+        .md-typeset figcaption.ecos-carousel__caption {
+            min-height: 3rem;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .ecos-carousel__slide,
+        .ecos-carousel__dot {
+            transition: none;
+        }
+    }
+</style>
+
 <div class="text-4xl font-bold text-center mb-4">ECOS Open Silicon</div>
 <div class="text-xl font-medium text-center">(Build an) Ecosystem for Collaborative and Open Silicon</div>
 <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mt-8 mb-13!">
@@ -12,6 +185,192 @@ hide:
         <div class="basis-2/3">
             <div class="flex flex-col gap-4">
                 <div class="overflow-hidden rounded-lg bg-surface-0 outline -outline-offset-1 outline-white/10 border border-gray-300">
+                    <div class="ecos-carousel" data-ecos-carousel aria-roledescription="carousel" aria-label="ECOS chips, boards, and EDA highlights">
+                        <div class="ecos-carousel__stage" aria-live="polite">
+                            <figure class="ecos-carousel__slide is-active" data-carousel-slide aria-hidden="false">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/01_a.webp" data-title="YSYX-8-C1" data-description="Open-source 55 nm RISC-V chip">
+                                    <img src="/res/img/web/news/20260922/01_a.webp" alt="Physical design layout and packaged silicon of the YSYX-8-C1 chip" loading="eager" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Chip</span><span class="ecos-carousel__title">YSYX-8-C1</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/04_a.webp" data-title="ECOS T1" data-description="CL1 processor, custom SoC, and ECOS PLL">
+                                    <img data-src="/res/img/web/news/20260922/04_a.webp" alt="Physical design layout and packaged silicon of the ECOS T1 chip" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Chip</span><span class="ecos-carousel__title">ECOS T1</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/04_b.webp" data-title="ECOS T2" data-description="Physical design layout and packaged silicon">
+                                    <img data-src="/res/img/web/news/20260922/04_b.webp" alt="Physical design layout and packaged silicon of the ECOS T2 chip" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Chip</span><span class="ecos-carousel__title">ECOS T2</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/10.webp" data-title="ECOS C4" data-description="Physical design layout and packaged silicon">
+                                    <img data-src="/res/img/web/news/20260922/10.webp" alt="Physical design layout and packaged silicon of the ECOS C4 chip" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Chip</span><span class="ecos-carousel__title">ECOS C4</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20250901/03.webp" data-title="StarrySky C1 Board" data-description="Open-source chip development board">
+                                    <img data-src="/res/img/web/news/20250901/03.webp" alt="StarrySky C1 development board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky C1 Board</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20250901/05.webp" data-title="StarrySky C1 Demo" data-description="A development board running a display demo">
+                                    <img data-src="/res/img/web/news/20250901/05.webp" alt="StarrySky C1 board running a display demo" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky C1 Demo</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/02_a.webp" data-title="YSYX-8 Test Board" data-description="Validation platform for YSYX-8 silicon">
+                                    <img data-src="/res/img/web/news/20260922/02_a.webp" alt="Blue YSYX-8 test board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">YSYX-8 Test Board</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/02_b.webp" data-title="StarrySky L4" data-description="Open-source chip development board">
+                                    <img data-src="/res/img/web/news/20260922/02_b.webp" alt="StarrySky L4 development board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky L4</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/03_b.webp" data-title="StarrySky L4 Display Demo" data-description="Board bring-up and display validation">
+                                    <img data-src="/res/img/web/news/20260922/03_b.webp" alt="StarrySky L4 board driving a color display" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky L4 Display Demo</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/05_a.webp" data-title="ECOS T1 Test Board" data-description="Development and validation board for ECOS T1">
+                                    <img data-src="/res/img/web/news/20260922/05_a.webp" alt="Blue ECOS T1 test board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">ECOS T1 Test Board</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260922/05_b.webp" data-title="StarrySky T1 Pico" data-description="Compact ECOS T1 development board">
+                                    <img data-src="/res/img/web/news/20260922/05_b.webp" alt="StarrySky T1 Pico development board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky T1 Pico</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20260926/02.webp" data-title="ECOS Hardware Showcase" data-description="Open-source chips and boards at the ECOS exhibition booth">
+                                    <img data-src="/res/img/web/news/20260926/02.webp" alt="ECOS chips and boards displayed at an exhibition booth" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">ECOS Hardware Showcase</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/brd/starry-sky-l/v1.2/core/board_func.webp" data-title="StarrySky L v1.2" data-description="Open-source chip development platform">
+                                    <img data-src="/res/img/brd/starry-sky-l/v1.2/core/board_func.webp" alt="Top view of the StarrySky L v1.2 development board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky L v1.2</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/brd/starry-sky-l/v1.3/core/board_func.webp" data-title="StarrySky L v1.3" data-description="Open-source chip development platform">
+                                    <img data-src="/res/img/brd/starry-sky-l/v1.3/core/board_func.webp" alt="Top view of the StarrySky L v1.3 development board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky L v1.3</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/brd/starry-sky-l/v2.1/core/board_func_top.webp" data-title="StarrySky L v2.1" data-description="Front view of the development board">
+                                    <img data-src="/res/img/brd/starry-sky-l/v2.1/core/board_func_top.webp" alt="Front view of the StarrySky L v2.1 development board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky L v2.1</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/brd/starry-sky-l/v2.1/core/pcb_3d.webp" data-title="StarrySky L 3D Assembly" data-description="Three-dimensional PCB assembly view">
+                                    <img data-src="/res/img/brd/starry-sky-l/v2.1/core/pcb_3d.webp" alt="3D assembly render of the StarrySky L board" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky L 3D Assembly</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/brd/starry-sky-l/v3.0/brd_pcb_top.webp" data-title="StarrySky L v3.0 PCB" data-description="Front-side PCB render">
+                                    <img data-src="/res/img/brd/starry-sky-l/v3.0/brd_pcb_top.webp" alt="Front-side PCB render of StarrySky L v3.0" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky L v3.0 PCB</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/brd/starry-sky-l/v3.1/brd_pcb_top.webp" data-title="StarrySky L v3.1 PCB" data-description="Front-side PCB render">
+                                    <img data-src="/res/img/brd/starry-sky-l/v3.1/brd_pcb_top.webp" alt="Front-side PCB render of StarrySky L v3.1" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">Board</span><span class="ecos-carousel__title">StarrySky L v3.1 PCB</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/create-workspace.png" data-title="ECOS Studio Workspace Setup" data-description="Create an RTL or backend design workspace">
+                                    <img data-src="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/create-workspace.png" alt="ECOS Studio workspace creation screen" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">EDA</span><span class="ecos-carousel__title">ECOS Studio Workspace Setup</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/ecos-studio-solution.png" data-title="ECOS Studio Design Flow" data-description="An open RTL-to-chip silicon design solution">
+                                    <img data-src="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/ecos-studio-solution.png" alt="ECOS Studio open RTL-to-chip design flow" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">EDA</span><span class="ecos-carousel__title">ECOS Studio Design Flow</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/flow-progress.png" data-title="Design Flow Progress" data-description="Track physical design stages, metrics, and layout results">
+                                    <img data-src="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/flow-progress.png" alt="ECOS Studio design flow progress dashboard" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">EDA</span><span class="ecos-carousel__title">Design Flow Progress</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/indicator-analysis.png" data-title="Indicator Analysis" data-description="Analyze instances, pins, layers, and routing">
+                                    <img data-src="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/indicator-analysis.png" alt="ECOS Studio indicator analysis dashboard" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">EDA</span><span class="ecos-carousel__title">Indicator Analysis</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/layout-view.png" data-title="Layout View" data-description="Inspect the final physical design layout">
+                                    <img data-src="https://raw.githubusercontent.com/openecos-projects/ecos-studio/main/ecos/docs/asset/layout-view.png" alt="ECOS Studio physical layout viewer" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">EDA</span><span class="ecos-carousel__title">Layout View</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20250901/01.webp" data-title="RetroSoC Architecture" data-description="RISC-V SoC architecture and integrated peripherals">
+                                    <img data-src="/res/img/web/news/20250901/01.webp" alt="RetroSoC RISC-V system architecture diagram" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">EDA</span><span class="ecos-carousel__title">RetroSoC Architecture</span></figcaption>
+                            </figure>
+                            <figure class="ecos-carousel__slide" data-carousel-slide aria-hidden="true">
+                                <a class="glightbox ecos-carousel__media" href="/res/img/web/news/20250901/02.webp" data-title="RetroSoC Physical Layout" data-description="Completed physical design layout">
+                                    <img data-src="/res/img/web/news/20250901/02.webp" alt="RetroSoC physical design layout" loading="lazy" decoding="async">
+                                </a>
+                                <figcaption class="ecos-carousel__caption"><span class="ecos-carousel__tag">EDA</span><span class="ecos-carousel__title">RetroSoC Physical Layout</span></figcaption>
+                            </figure>
+                        </div>
+                        <div class="ecos-carousel__controls">
+                            <button class="ecos-carousel__button" type="button" data-carousel-previous aria-label="Previous slide" title="Previous"><span aria-hidden="true">&#8592;</span></button>
+                            <div class="ecos-carousel__dots" aria-label="Choose a slide">
+                                <button class="ecos-carousel__dot is-active" type="button" data-carousel-dot aria-label="Show slide 1" aria-current="true"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 2" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 3" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 4" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 5" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 6" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 7" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 8" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 9" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 10" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 11" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 12" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 13" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 14" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 15" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 16" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 17" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 18" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 19" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 20" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 21" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 22" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 23" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 24" aria-current="false"></button>
+                                <button class="ecos-carousel__dot" type="button" data-carousel-dot aria-label="Show slide 25" aria-current="false"></button>
+                            </div>
+                            <button class="ecos-carousel__button" type="button" data-carousel-toggle aria-label="Pause carousel" title="Pause"><span data-carousel-toggle-icon aria-hidden="true">&#8214;</span></button>
+                            <button class="ecos-carousel__button" type="button" data-carousel-next aria-label="Next slide" title="Next"><span aria-hidden="true">&#8594;</span></button>
+                        </div>
+                    </div>
                     <div class="px-4 py-5 sm:p-6 markdown">
                         <div class="text-base font-bold" id="introduction">Introduction</div>
                         <ul>
